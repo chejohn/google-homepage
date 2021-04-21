@@ -4,29 +4,21 @@
         <link rel = 'stylesheet' href = 'google-homePage.css'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Google Homepage">
-
+        <title>Google Homepage</title>
     </head>
     <body>
-        <div id = 'wrapper'>
-            <div class = 'topnav'>
-                <span class = 'navBox1 navBox'>
-                    <a href = '#about'>About</a>
-                    <a href = '#Store'>Store</a>
-                </span>
-                <span class = 'navBox2 navBox'>
-                    <a href = '#Gmail'>Gmail</a>
-                    <a href = '#Images'>Images</a>
-                    <img src = 'outline_apps_black_24dp.png'>
-                    <button value = 'Sign In' id = 'sign-in'>Sign in</button>
-                </span>
+        <div id = 'navBar'>
+            <div id = 'nav-col1'>
+                <a href = '#About' id = 'about'>About</a>
+                <a href = '#Store' id = 'store'>Store</a>
             </div>
-            <div class = 'grid-container'>
-                <img src = 'https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' alt = 'google logo'>
-                <form>
-                    <input id = 'search-bar' type = 'search' name = 'query'><br><br>
-                    <button type = 'submit'>Google Search</button>
-                    <button type = 'submit'>I'm Feeling Lucky</button>
-                </form>  
+            <div id = 'nav-col2'>
+                <div id = 'col2-wrapper'>
+                    <a href = '#Gmail' id = 'gmail'>Gmail</a>
+                    <a href = '#Images' id = 'images'>Images</a>
+                    <img src = 'grid.png' id = 'grid'>
+                    <button id = 'sign-in'>Sign in</button>
+                </div>
             </div>
         </div>
     </body>
