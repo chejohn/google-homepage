@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel = 'stylesheet' href = 'google-homePage.css'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Google Homepage">
-    </head>
 
+    </head>
     <body>
-        
+        <div id = 'wrapper'>
+            <div class = 'topnav'>
+                <span class = 'navBox1 navBox'>
+                    <a href = '#about'>About</a>
+                    <a href = '#Store'>Store</a>
+                </span>
+                <span class = 'navBox2 navBox'>
+                    <a href = '#Gmail'>Gmail</a>
+                    <a href = '#Images'>Images</a>
+                    <img src = 'outline_apps_black_24dp.png'>
+                    <button value = 'Sign In' id = 'sign-in'>Sign in</button>
+                </span>
+            </div>
+            <div class = 'grid-container'>
+                <img src = 'https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' alt = 'google logo'>
+                <form>
+                    <input id = 'search-bar' type = 'search' name = 'query'><br><br>
+                    <button type = 'submit'>Google Search</button>
+                    <button type = 'submit'>I'm Feeling Lucky</button>
+                </form>  
+            </div>
+        </div>
     </body>
 
     <footer>

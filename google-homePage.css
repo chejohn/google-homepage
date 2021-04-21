@@ -1,0 +1,33 @@
+
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    background: grey;
+    height: 50px;
+}
+
+.navBox {
+    margin: 20px;
+}
+
+.navBox1 a {
+    margin-right: 15px;
+}
+
+.navBox2 a, img, button {
+    margin-left: 15px;
+}
+
+#sign-in {
+    background-color: blue;
+    width: auto;
+    height: 30px;
+    color: white;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width: 100vw;
+}
