@@ -1,6 +1,10 @@
+# Google Home Page
 
-Project:
-This is a replica of Google's homepage written in HTML & CSS.
+Replica of Google home page
 
-Skills demonstrated:
-// save this as a self reflection for when I finish the project
+# What I Learned
+
+* inline vs. inline-block vs block HTML elements
+* semantic HTML
+* CSS selectors
+* CSS Flexbox & Grid
